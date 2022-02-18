@@ -1,0 +1,10 @@
+.video-item{
+    display: flex !important;
+    align-items: center !important;
+    cursor: pointer; /* transforme la souris en petite main qui pointe du doigt
+    pour montrer qu'on peut cliquer dessus*/
+}
+
+.video-item.item img{
+    max-width: 100px;
+}
